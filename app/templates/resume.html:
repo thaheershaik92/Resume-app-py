@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ data.name }}'s Resume</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>{{ data.name }}</h1>
+    <p>Email: {{ data.email }}</p>
+    <!-- Add more sections to display education, skills, projects, etc. -->
+</body>
+</html>
